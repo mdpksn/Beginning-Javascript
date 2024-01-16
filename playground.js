@@ -10,6 +10,8 @@
 // Enter your code below this line
 
 // Code example
-for(var i=1; i<=5; i++) {
- console.log(i);
-}
+const threeArr = [1, 4, 6];
+const oneDown = threeArr.pop();
+console.log(oneDown);
+console.log(threeArr);
+
